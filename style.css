@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+.btn{
+    background-color:  #469165;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    font-weight: 600px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    margin-right: 120px;
+
+
+}
+
+header{
+    background-color: #FFFFFF;
+
+
+}
+
+nav{
+    width: 93%;
+    max-width: 1600px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 139px;
+    padding: 16px;
+    margin-left: 120px;
+
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style-type: none;
+    
+}
+
+nav .menu a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.header-content{
+    /* text-align: center;
+    /* margin-top: 115.5px; */
+    /* background-image: url(./images/hero-bg.png);
+    padding: 0%; */ 
+     /* width: 1360px; */
+    margin: 0 auto;
+    text-align: center;
+    padding: 115.5px 120px 179.5px 0px;
+    /* max-width: 1360px; */
+   background-image: url(./images/hero-bg.png);
+   
+}
+
+.header-content p{
+    font-size: 16px;
+    font-weight: 500;
+    /* background-color: #FFFFFF; */
+    margin-bottom: 16px;
+}
+
+.header-content .color{
+    color: #30B868;
+    margin-bottom: 16px;
+    
+}
+
+.header-content .content {
+    align-content: center;
+    margin-bottom: 32px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+.header-content .button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16.5px 16px 16.5px 46px;
+}
+
+.header-content .btn {
+    padding: 16.5px 46px 16.5px 16px;
+}
+
+.section-heading{
+   text-align: center;
+   margin-top: 30px;
+}
+
+#card .card-info {
+   display: flex;
+   align-items: center;
+   text-align: center;
+   margin: 196px 120px 48px 120px;
+
+}
+
+.brain{
+    display: flex;
+    align-items: center;
+    
+}
+
+.brain-img{
+    margin-right: 60px;
+    margin-left: 120px;
+}
+
+.label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-top: 30px;
+    margin-bottom: 16px;
+
+}
+
+
+.brain-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.brain-text .text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+   
+}
+
+.brain-text ul {
+    list-style-type:none;
+    margin-bottom: 16px;
+    vertical-align: middle;
+    gap: 16px;
+}
+
+.brain-text .li{
+    margin-bottom: 16px;
+    color: #001931;
+    
+}
